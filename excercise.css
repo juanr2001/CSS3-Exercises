@@ -1,0 +1,137 @@
+/* Everytime I import I need to write the imports at the beginning
+using url() is another way to import css files*/
+@import "headings.css";
+@import url("paragraphs.css");
+
+/* -This is how to change all the page.
+    -This is how to change the fonts.
+    -Everytime we have a space on fonts, I have to write it inside quotations
+    -If the Arial Black does not show, I can call other font calling sans-serif */
+* {
+
+    font-family: "Arial Black" Gadget, sans-serif;
+}
+
+/* This is how to tag and pick everything inside every div */
+
+div * {
+
+    font-family: "Comic Sans Ms", cursive, sans-serif;
+}
+
+/*This is how to select a classes */
+.sitelink {
+
+    font-family: Georgia, serif;
+}
+
+/* This is a way to select id */
+#myquote{
+
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: black;
+}
+
+/*This is how to tag a paragraph with a class name. */
+p.sitelink {
+
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: black;
+}
+
+/*This is how to tag a span with an ID */
+span#juan{
+
+    font-family: "Times New Roman", Times, serif;
+    color: red;
+
+}
+
+/*if I have a div with an ID and I want to target multiple tags inside the div " ex. ul li "  */
+#programming ol li {
+
+    color: purple;
+
+}
+
+
+/*If I want to target the same div with other tags inside the div "ex. ul li " */
+#programming ul li {
+
+    color: pink;
+
+}
+
+/*This is how to target a paragraph that follows by an h3 tag  */
+
+h3 + p {
+
+    font-style: italic;
+
+}
+
+/*This is how to target a link that is inside a paragraph that follows by an h3 tag */
+
+h3 + p > a {
+
+    color: red;
+
+}
+
+/*This is how to target every paragraph that has a class */
+p[class] {
+
+    background: gray;
+
+}
+
+/*Target every paragraph that has an ID  */
+
+p[id] {
+
+    background: orange;
+
+}
+
+
+/* Target anything thats has the " alt " and its value */
+    *[alt~="xbox"] {
+
+        background: green;
+
+    }
+
+
+
+
+
+/* */
+
+/* */
+
+
+/* */
+
+
+/* */
+
+
+/* */
+
+
+/* */
+
+
+/* */
+
+
+/* */
+
+
+/* */
+
+
+/* */
+
+
+/* */

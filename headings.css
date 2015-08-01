@@ -1,0 +1,10 @@
+/*This is how to style two thing at one time */
+
+h1, h2 {
+
+    color: white;
+    background: black;
+    /*padding is moves the contect arround the area of the background
+    ways it can be written: padding: 15px(width) 100px(length, the bigger the pixel the small size for the paragraph) */
+    padding: 15px;
+}
